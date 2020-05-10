@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:tac0x2a/tac0x2a.github.io.git
 	branch = master
+[submodule "themes/even"]
+	path = themes/even
+	url = git@github.com:tac0x2a/hugo-theme-even.git
+	branch = master
