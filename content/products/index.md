@@ -1,3 +1,8 @@
+---
+categories: ['tech']
+title: 作ったものとか
+---
+
 
 作ったものとか．
 
@@ -34,37 +39,27 @@ result = root.inject(agent, root_page)
 
 [github.com/tac0x2a/yasuri](https://github.com/tac0x2a/yasuri)
 
-
-## [IIDX Access Library](https://github.com/tac0x2a/iidx_lib)
-beatmaniaIIDX のプレーデータを取得するためのRubyライブラリです．<br>
-e-amusementのログインに画像認証が導入されたことにより、現在動作しません．
-
-```
-require 'iidx_lib'
-
-konami_id = "konami_id@mail.ad"
-password  = "your_password"
-
-# for Pendual
-IIDX22.open(konami_id, password) do |iidx22|
-  puts iidx22.dj_data
-  # => {:dj_name=>"dj auto", ... }
-
-  puts iidx22.series_music(20) # ex) tricoro musics.
-end
-```
-
--> [github.com/tac0x2a/iidx_lib](https://github.com/tac0x2a/iidx_lib)
-
-
+---
 ## [AutoSettings](https://play.google.com/store/apps/details?id=net.tac42.auto_settings)
 起動しているアプリやシステムの状態に応じて設定を自動で切り替えるAndroidアプリです．
 
 ![](./autosettings_01.png)
 ![](./autosettings_02.png)
 
-
+---
 ## [Droid Jammer](https://play.google.com/store/apps/details?id=jp.dip.wt.lmm)
 顔認識ライブラリを利用して，画像中の顔を隠すAndroidアプリです．
-
 ![](./droidjammer_01.png)
+
+---
+## [932mania](https://932mania.tac42.net)
+![932mania](932mania.png)
+
+[932mania](https://932mania.tac42.net)
+
+[github.com/tac0x2a/932mania](https://github.com/tac0x2a/932_mania)
+
+
+Vue.js + Firebase で作ったお試しアプリ。Wikipediaをスクレイピングして、「草津」から始まる記事を表示します。
+
+
