@@ -1,3 +1,7 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/tac0x2a/hugo-theme-even
+[submodule "public"]
+	path = public
+	url = https://github.com/tac0x2a/tac0x2a.github.io.git
+	branch = master
