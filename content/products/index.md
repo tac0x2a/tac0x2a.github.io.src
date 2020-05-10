@@ -1,8 +1,3 @@
----
-title: "Products"
-date: 2020-05-10T15:27:41+09:00
-draft: true
----
 
 作ったものとか．
 
