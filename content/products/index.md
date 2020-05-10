@@ -7,6 +7,19 @@ title: 作ったものとか
 作ったものとか．
 
 ---
+## [932mania](https://932mania.tac42.net)
+![932mania](932mania.png)
+
+[932mania](https://932mania.tac42.net)
+
+[github.com/tac0x2a/932mania](https://github.com/tac0x2a/932_mania)
+
+
+Vue.js + Firebase で作ったお試しアプリ。Wikipediaをスクレイピングして、「草津」から始まる記事を表示します。
+
+
+
+---
 ## [Yasuri](https://github.com/tac0x2a/yasuri)
 Webスクレイピング処理を宣言的に記述するためのRubyライブラリです．
 
@@ -50,16 +63,4 @@ result = root.inject(agent, root_page)
 ## [Droid Jammer](https://play.google.com/store/apps/details?id=jp.dip.wt.lmm)
 顔認識ライブラリを利用して，画像中の顔を隠すAndroidアプリです．
 ![](./droidjammer_01.png)
-
----
-## [932mania](https://932mania.tac42.net)
-![932mania](932mania.png)
-
-[932mania](https://932mania.tac42.net)
-
-[github.com/tac0x2a/932mania](https://github.com/tac0x2a/932_mania)
-
-
-Vue.js + Firebase で作ったお試しアプリ。Wikipediaをスクレイピングして、「草津」から始まる記事を表示します。
-
 
