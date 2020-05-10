@@ -65,11 +65,11 @@ end
 ## [AutoSettings](https://play.google.com/store/apps/details?id=net.tac42.auto_settings)
 起動しているアプリやシステムの状態に応じて設定を自動で切り替えるAndroidアプリです．
 
-![]({{ root_url }}/assets/products/autosettings_01.png)
-![]({{ root_url }}/assets/products/autosettings_02.png)
+![](./autosettings_01.png)
+![](./autosettings_02.png)
 
 
 ## [Droid Jammer](https://play.google.com/store/apps/details?id=jp.dip.wt.lmm)
 顔認識ライブラリを利用して，画像中の顔を隠すAndroidアプリです．
 
-![]({{ root_url }}/assets/products/droidjammer_01.png)
+![](./droidjammer_01.png)
