@@ -1,6 +1,6 @@
 baseURL = "https://www.tac42.net/"
-languageCode = "en"
-defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
+languageCode = "ja"
+defaultContentLanguage = "ja"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "tac42.net"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
