@@ -11,14 +11,12 @@ GooglePhoto を見ながら 2015 年を振り返り．ごった煮です．
 
 - 石川へ行く(1 回目)
 - beatmania IIDX 関連の OSS を 3 つリリース．全部 Ruby．
-
   - プレーデータ取得用のライブラリ - [tac0x2a/iidx_lib](https://github.com/tac0x2a/iidx_lib)
   - プレー結果通知ツール - [tac0x2a/iidx_play_notifier](https://github.com/tac0x2a/iidx_play_notifier)
   - プレー結果確認サービス - [tac0x2a/iidx_play_viewer](https://github.com/tac0x2a/iidx_play_viewer)
-
-  ちなみに，2015/12/31 現在，[KONAMI eAMUSEMENT](http://p.eagate.573.jp/) へのログインには画像認証が必須となったため，上記は動作しなくなりました．．．残念．
-
 - こつこつプレーしていた[世界樹の迷宮 4](http://sq4.atlusnet.jp/)を遂にクリアする．(2012 年 7 月発売なので，約 2.5 年)
+
+ちなみに，2015/12/31 現在，[KONAMI eAMUSEMENT](http://p.eagate.573.jp/) へのログインには画像認証が必須となったため，上記は動作しなくなりました．．．残念．
 
 ## 2Q(4 月から 6 月)
 
@@ -27,13 +25,10 @@ GooglePhoto を見ながら 2015 年を振り返り．ごった煮です．
 - [某イベント](http://nku.chu.jp/bettyrotation/) に参加するため石川へ行く(2 回目).
 - IPA の ES 試験になんとか合格！(が，後述の配置転換で組込み開発から離れることに．．．)
 - Ruby 製の Web スクレイピングライブラリ Yasuri をリリース - [tac0x2a/yasuri](https://github.com/tac0x2a/yasuri)
-
   それなりに反響をいただき，[Qiita のエントリ](http://qiita.com/tac0x2a/items/69ac8a33b0a8a3d46edd)はストック数，はてブ数とも過去最高となりました．皆さんありがとうございます．
-
 - 京都水族館へ行く．イルカショーでなかなか笛が鳴らなかった思い出．
 - 自転車で琵琶湖を一周．例年通り後輩と 2 人で．
-
-  ![びわいち]({{ root_url }}/assets/blog/2015-12-31-conclusion2015/bike.jpg)
+  ![びわいち](./bike.jpg)
 
 ## 3Q(7 月から 9 月)
 
@@ -42,8 +37,7 @@ GooglePhoto を見ながら 2015 年を振り返り．ごった煮です．
 - 某イベントのため品川へ．ステージに呼び出されて脱ぎたて T シャツをもらう．
 - 郡上八幡へ行く．水が綺麗．
 - 鳥羽水族館へ行く．ペンギンが近すぎて楽しい．
-
-  ![近い]({{ root_url }}/assets/blog/2015-12-31-conclusion2015/penguin.jpg)
+  ![近い](./penguin.jpg)
 
 ## 4Q(10 月から 12 月)
 
@@ -55,9 +49,7 @@ GooglePhoto を見ながら 2015 年を振り返り．ごった煮です．
 - 海遊館へ行く．マンボウが大きい．
 - 忘年会のため，石川へ行く(4 回目) ぶりしゃぶ．
 - 奥能登を堪能するため，石川へ行く(5 回目) 波の花がふわふわ．
-
-  ![波の花]({{ root_url }}/assets/blog/2015-12-31-conclusion2015/wave_flower.jpg)
-
+  ![波の花](./wave_flower.jpg)
 - Jekyll + Github Pages で慌ててこのまとめを書く ← 今ここ
 
 ## まとめ

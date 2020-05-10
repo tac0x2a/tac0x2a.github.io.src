@@ -5,7 +5,7 @@ date: '2016-01-05T01:42:19Z'
 title: RaspberryPi2をセットアップする
 ---
 
-![RaspberryPi]({{ root_url }}/assets/blog/2016-01-05-raspberrypi-setup/raspi.jpg)
+![RaspberryPi](./raspi.jpg)
 
 すごい今更感ありますが、Raspberry Pi2 Model B を買ってしまったのでセットアップしたメモ．
 ssh するところまで．

@@ -67,7 +67,7 @@ html
     block content
 ```
 
-![Signup]({{ root_url }}/assets/blog/2016-04-05-express/signup.png)
+![Signup](./signup.png)
 
 こんなかんじになった。
 
