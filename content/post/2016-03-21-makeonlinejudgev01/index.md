@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-21T23:32:05Z'
 title: オンラインジャッジを作ろう
+summary: ' '
 ---
 
 作ろう！

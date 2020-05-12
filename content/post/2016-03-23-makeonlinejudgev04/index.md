@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-23T23:57:43Z'
 title: Angular2入門
+summary: 'とりあえず Angular2 を触ってみよう。合わなければやめる方向で。'
 ---
 
 とりあえず Angular2 を触ってみよう。合わなければやめる方向で。

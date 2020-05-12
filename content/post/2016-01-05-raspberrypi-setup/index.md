@@ -3,6 +3,7 @@ categories: ['tech']
 comments: true
 date: '2016-01-05T01:42:19Z'
 title: RaspberryPi2をセットアップする
+summary: 'すごい今更感ありますが、Raspberry Pi2 Model B を買ってしまったのでセットアップしたメモ．'
 ---
 
 ![RaspberryPi](./raspi.jpg)

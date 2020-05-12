@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-23T00:19:24Z'
 title: フレームワークを選ぶ(Golang)
+summary: 'Go で Web アプリを書くためのフレームワークについて調べました。'
 ---
 
 Go で Web アプリを書くためのフレームワークを調べました。

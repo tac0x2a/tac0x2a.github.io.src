@@ -3,6 +3,7 @@ categories: ['other']
 comments: true
 date: '2015-12-31T23:59:25Z'
 title: 2015年のまとめ
+summary: 'GooglePhoto を見ながら 2015 年を振り返り'
 ---
 
 GooglePhoto を見ながら 2015 年を振り返り．ごった煮です．

@@ -2,6 +2,7 @@
 comments: true
 date: '2016-01-02T02:27:30Z'
 title: Octopressで記事を書くには
+summary: '備忘録です．Octopress に乗り換えたものの，環境構築忘れるとあれなので．'
 ---
 
 ![](https://cdn.tutsplus.com/webdesign/authors/ian-yates/octopress-header.png)

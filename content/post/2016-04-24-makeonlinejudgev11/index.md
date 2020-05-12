@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-04-24T14:30:27Z'
 title: AngularJS導入
+summary: 随分間が空きましたがこつこつ進めてますよ！
 ---
 
 随分間が空きましたがこつこつ進めてますよ！

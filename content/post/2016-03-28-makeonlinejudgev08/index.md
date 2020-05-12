@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-28T22:22:25Z'
 title: プロトタイプを作ろう
+summary: ' '
 ---
 
 # まずはプロトタイプ

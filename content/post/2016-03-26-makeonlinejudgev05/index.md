@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-26T01:19:06Z'
 title: Atomを使おう
+summary: ' '
 ---
 
 # パッケージ

@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-03-22T19:43:37Z'
 title: フレームワークを選ぶ(Javascript)
+summary: 'Javascript で Web アプリを書くためのフレームワークを調べました。'
 ---
 
 Javascript で Web アプリを書くためのフレームワークを調べました。

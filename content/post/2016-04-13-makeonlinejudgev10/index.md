@@ -3,6 +3,7 @@ categories: ['make_online_judge', 'tech']
 comments: true
 date: '2016-04-13T08:04:24Z'
 title: テストフレームワークを導入する(mocha)
+summary: ' '
 ---
 
 ユーザのサインアップ、ログイン・ログアウトを実装できたので
