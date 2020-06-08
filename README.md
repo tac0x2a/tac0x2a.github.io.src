@@ -36,5 +36,6 @@ When writing finished, change `draft: true` to `draft: false`.
 # Deploy
 ```
 chmod +x ./deploy.sh
+./deploy.sh
 ```
 
