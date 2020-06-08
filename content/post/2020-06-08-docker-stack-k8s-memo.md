@@ -1,7 +1,7 @@
 ---
 title: "docker stackでk8sを使ってみるメモ"
 date: 2020-06-08T20:28:19+09:00
-draft: true
+draft: false
 summary: '既存の docker-compose.yml で k8sにデプロイできると聞いて調べてみたメモ。'
 ---
 
