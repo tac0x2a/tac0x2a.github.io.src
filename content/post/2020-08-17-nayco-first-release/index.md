@@ -24,6 +24,7 @@ Naycoは主にオンプレミスのデータ収集・蓄積・可視化環境を
 `docker-compose` コマンドで立ち上げたあとは、共有フォルダにファイルを置いたりMQTTでデータを送信するだけで、DWHへ自動でデータが蓄積され、[Metabase](https://www.metabase.com/)や一般的なツールによってデータを利用することができます。
 
 
+
 ## Nayco の概要
 
 ![overview](./img/overview.drawio.svg)
