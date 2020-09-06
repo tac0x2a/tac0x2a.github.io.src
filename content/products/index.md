@@ -9,21 +9,20 @@ title: 作ったものとか
 ---
 ## [Nayco](https://github.com/tac0x2a/nayco)
 
-<center>
-
 [![nayco](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/nayco.svg)](https://github.com/tac0x2a/nayco)
-
-</center>
 
 [tac0x2a/nayco](https://github.com/tac0x2a/932_mania)
 
 適当にMQTT投げたりCSVファイル置くだけで、いい感じにDWHへ蓄積してダッシュボード作れるなんちゃってオンプレデータ基盤です。自分のデータエンジニアリングを楽にするために作りました。詳しくは[こちら](/post/2020-08-17-nayco-first-release/)。
+
 
 Naycoで使っている自作OSSとして以下も作りました。
 + [Grebe](https://github.com/tac0x2a/grebe): RabbitMQから受け取ったJSON/CSVテキストをいい感じにClickHouseへ蓄積する
 + [Lake Weed](https://github.com/tac0x2a/lake_weed): JSON/CSV のテキストを受け取って、いい感じにClickHouseの型へマッピングするライブラリ。Grebeの中で使っています。そのうちClickHouse以外のDBMSにも対応したい。
 + [o-namazu](https://github.com/tac0x2a/grebe): フォルダを監視して、ファイルが置かれたり追記されたら差分をMQTTで送信するデータシッパー。設定ファイルを置くだけで、フォルダごとの監視条件を設定できる。
 + [Uminoco](): Grebeで貯めたClickHouse上のデータを見たりテーブル操作するためのサービス。テーブルがいつ作られて、どれくらいのサイズになっていて、最新の値や最近のデータ件数をヒートマップで見れるなど、便利そう！と思う機能を適当に入れています。
+
+![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/hello_nayco_table.png)
 
 ---
 ## [932mania](https://932mania.tac42.net)
