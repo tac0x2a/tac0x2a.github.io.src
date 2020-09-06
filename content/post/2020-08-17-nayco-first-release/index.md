@@ -9,7 +9,7 @@ summary: 'オンプレでも頑張って動く小さなデータ基盤 Nayco を
 
 Naycoは主にオンプレミスのデータ収集・蓄積・可視化環境を素早く立ち上げるための、オールインワンの小さなデータ基盤です。
 
-[![nayco](./img/nayco.svg)](https://github.com/tac0x2a/nayco)
+[![nayco](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/nayco.svg)](https://github.com/tac0x2a/nayco)
 
 [tac0x2a/nayco](https://github.com/tac0x2a/nayco)
 
@@ -27,7 +27,7 @@ Naycoは主にオンプレミスのデータ収集・蓄積・可視化環境を
 
 ## Nayco の概要
 
-![overview](./img/overview.drawio.svg)
+![overview](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/overview.drawio.svg)
 
 Naycoは、データの入力、変換、蓄積、可視化のためのソフトウェア群によって構成されています。
 基本の入力はMQTTで、JSON, JSONL, またはヘッダ付きCSV形式のデータを受け付けます。ヘッダなしのCSVフォーマットはサポートされません。
@@ -97,7 +97,7 @@ pub.single(topic=topic, payload=payload, hostname=hostname, port=1883)
 送信が完了したら、以下のデータ管理サービスでテーブルが作成されたことを確認します。
 + Uminoco: `http://<NAYCO_HOST>:5000/table/hello_nayco_001`
 
-  ![](./img/hello_nayco_table.png)
+  ![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/hello_nayco_table.png)
 
 データとtopic名を元にテーブルが自動作成されていることを確認できます。
 テーブル名はtopic名を元に生成されますが、`RENAME TABLE` ボタンから変更することができます。
@@ -116,13 +116,13 @@ Metabaseを利用するためには、初回アクセス時に、DWH(ClickHouse)
 + Database user name: `default`
 + Database password: <空>
 
-![](./img/metabase_clickhouse.png)
+![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/metabase_clickhouse.png)
 
 上記をSaveして、Naycoに蓄積されたデータをMetabseで可視化する準備が整いました。(Metabaseのクロールが実行されるまでの間、実際のテーブルがMetabase上に表示されない場合があります)
 試しに、簡単な可視化をしてみましょう。Metabase上で `hello_nayco_001` テーブルが見えるようになったので、以下のようなチャート(Question)を作成します。
 Metabaseの使い方については、[Metabaseのドキュメント](https://www.metabase.com/docs/latest/getting-started.html)を参照してください。
 
-![](./img/metabase_1.png)
+![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/metabase_1.png)
 
 横軸を公開日、縦軸を件数とするバーチャートです。今は1件しかデータが登録されていないので、シンプルな見た目です。
 
@@ -152,7 +152,7 @@ pub.single(topic=topic, payload=payload, hostname=hostname, port=1883)
 
 その後、Metabaseのページをリロードすると追加されたデータが表示されます。
 
-![](./img/metabase_10.png)
+![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/metabase_10.png)
 
 
 このように、MQTTでデータを送信するだけで、簡単に可視化が可能です。その他、任意のSQLクライアントでDWHを直接クエリしたり、ファイルとしてエクスポートすることが可能です。
