@@ -11,7 +11,7 @@ title: 作ったものとか
 
 [![nayco](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/nayco.svg)](https://github.com/tac0x2a/nayco)
 
-[tac0x2a/nayco](https://github.com/tac0x2a/932_mania)
+[tac0x2a/nayco](https://github.com/tac0x2a/nayc)
 
 雑にMQTT投げたりCSVファイル置くだけで、いい感じにDWHへ蓄積してダッシュボード作れるなんちゃってオンプレデータ基盤です。自分のデータエンジニアリングを楽にするために作りました。詳しくは[こちら](/post/2020-08-17-nayco-first-release/)。
 
