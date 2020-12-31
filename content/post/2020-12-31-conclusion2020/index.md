@@ -1,7 +1,7 @@
 ---
 title: "2020年のまとめ"
 date: 2020-12-31T17:00:00+09:00
-draft: true
+draft: false
 summary: ''
 categories: ['other']
 ---
