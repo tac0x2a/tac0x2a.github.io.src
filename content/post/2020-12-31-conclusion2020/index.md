@@ -98,7 +98,7 @@ categories: ['other']
 
 - 普段AAAタイトルを遊ばないので、[FF7リメイク](https://www.jp.square-enix.com/ffvii_remake/)のプレイ時間40H超はかなり疲れた。
 
-- 年末に滑り込みで RTX 3070 と [Razer Core X](https://www2.razer.com/jp-jp/gaming-systems/razer-core-x) を買った。来年は更に快適な
+- 年末に滑り込みで RTX 3070 と [Razer Core X](https://www2.razer.com/jp-jp/gaming-systems/razer-core-x) を買ったので、来年は更に快適にゲームを遊べるようになった。積んでる[Sekiro](https://www.sekiro.jp/)とか[Death Stranding](http://www.kojimaproductions.jp/death_stranding.html)とか遊びたい。
 
 ## 今年作ったもの
 ### [Nayco](https://github.com/tac0x2a/nayco)
