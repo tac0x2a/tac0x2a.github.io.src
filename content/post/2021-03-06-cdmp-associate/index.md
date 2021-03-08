@@ -74,7 +74,7 @@ Fellowはこの共通テストの代わりに、`Globally recognised & respected
 これで試験を受ける準備ができました。試験は24時間365日いつでも受けることができます。受験期限は特に決まっていないようです。
 
 模擬試験は `Access practice exam here` から受けることができます。
-本試験を受ける場合は、事前に[Hanorlock Chrome拡張](https://static.honorlock.com/install/extension)をインストールしておく必要があります。
+本試験を受ける場合は、事前に[Honorlock Chrome拡張](https://static.honorlock.com/install/extension)をインストールしておく必要があります。
 
 
 ## 勉強法
