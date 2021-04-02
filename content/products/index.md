@@ -25,23 +25,18 @@ Naycoの中で動く以下のOSSも作りました。
 ![](https://raw.githubusercontent.com/tac0x2a/nayco/master/doc/img/hello_nayco_table.png)
 
 ---
-## [932mania](https://932mania.tac42.net)
-![932mania](932mania.png)
-
-[932mania](https://932mania.tac42.net)
-
-[github.com/tac0x2a/932mania](https://github.com/tac0x2a/932_mania)
-
-
-Vue.js + Firebase で作ったお試しアプリ。Wikipediaをスクレイピングして、「草津」から始まる記事を表示します。
-
-
-
----
 ## [Yasuri](https://github.com/tac0x2a/yasuri)
-Webスクレイピング処理を宣言的に記述するためのRubyライブラリです．
+
+Yasuri (鑢) はWebスクレイピングを宣言的に行うためのライブラリと、それを用いたスクレイピングのコマンドラインツールです。
+以下のようなよくある処理を、宣言的に記述し、結果を得ることができます．
+
++ ページ内の複数のリンクを開いて、各ページをスクレイピングした結果をHashで取得する
++ ページ内の複数のテキストをスクレイピングし、名前をつけてHashにする
++ ページ内に繰り返し出現するテーブルをそれぞれスクレイピングして、配列として取得する
++ ページネーションで提供される各ページのうち、上位3つだけを順にスクレイピングする
 
 ```ruby
+# ライブラリとして使う場合
 require 'yasuri'
 require 'machinize'
 
@@ -60,25 +55,47 @@ result = root.inject(agent, root_page)
 
 ```
 
+```sh
+# コマンドラインから使う場合
+$ docker run tac0x2a/yasuri yasuri scrape "https://www.ruby-lang.org/en/" -j '
+{
+  "text_title": "/html/head/title",
+  "text_desc": "//*[@id=\"intro\"]/p"
+}'
 
-よくある以下のような処理を、宣言的に、簡単に記述することができます．
+{"title":"Ruby Programming Language","desc":"\n    A dynamic, open source programming language with a focus on\n    simplicity and productivity. It has an elegant syntax that is\n    natural to read and easy to write.\n    "}
+```
 
-+ ページ内の複数のリンクを開いて、各ページをスクレイピングした結果をHashで取得する
-+ ページ内の複数のテキストをスクレイピングし、名前をつけてHashにする
-+ ページ内に繰り返し出現するテーブルをそれぞれスクレイピングして、配列として取得する
-+ ページネーションで提供される各ページのうち、上位3つだけを順にスクレイピングする
 
 [github.com/tac0x2a/yasuri](https://github.com/tac0x2a/yasuri)
 
+
 ---
-## [AutoSettings](https://play.google.com/store/apps/details?id=net.tac42.auto_settings)
+## [932mania](https://932mania.tac42.net)
+![932mania](932mania.png)
+
+[932mania](https://932mania.tac42.net)
+
+[github.com/tac0x2a/932mania](https://github.com/tac0x2a/932_mania)
+
+
+Vue.js + Firebase で作ったお試しアプリ。Wikipediaをスクレイピングして、「草津」から始まる記事を表示します。
+
+
+---
+## AutoSettings
 起動しているアプリやシステムの状態に応じて設定を自動で切り替えるAndroidアプリです．
+
+(現在は公開を停止しています)
 
 ![](./autosettings_01.png)
 ![](./autosettings_02.png)
 
 ---
-## [Droid Jammer](https://play.google.com/store/apps/details?id=jp.dip.wt.lmm)
+## Droid Jammer
 顔認識ライブラリを利用して，画像中の顔を隠すAndroidアプリです．
+
+(現在は公開を停止しています)
+
 ![](./droidjammer_01.png)
 
