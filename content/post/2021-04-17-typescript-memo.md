@@ -301,4 +301,4 @@ console.log(python.happyBirthday()) //=> "Happy Birthday, Python"
 console.log(Language.langCount()); //=> 3
 ```
 
-パット見た感じ、他の言語にだいぶ近く違和感ない。
+パット見た感じ、他の言語にだいぶ近く違和感なさそうでよかった。
