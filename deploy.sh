@@ -4,6 +4,11 @@
 set -e
 
 printf "\033[0;32mUpdate public directory...\033[0m\n"
+mv public/.git public.git
+rm -rf public
+hugo --cleanDestinationDir
+mv public.git public/.git
+
 cd public
 git checkout -f master
 git pull origin master
