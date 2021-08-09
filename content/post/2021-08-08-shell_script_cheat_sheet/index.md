@@ -369,14 +369,45 @@ done
 ```
 
 
+# リダイレクト
+```sh
+ls . > current_dir.txt # よくやるやつ
+
+cat > hoge.txt
+abcd
+^d # ctrl-d
+
+tr b B < hoge.txt # 標準入力
+aBcd
 
 
+# `n>&m` と書くと、FDのn番をm番のコピーにするという意味。
+ls > log.txt 2>&1 # 標準エラー出力を標準出力と同じファイルへリダイレクトする
+ls &> log.txt     # これでもOK
+
+ls 2>&1 > log.txt # これはだめ。
+# 標準出力先がlog.txtになる前、つまり出力先が端末になった状態で2>&1しているので、端末にエラー出力されちゃう
+
+```
 
 
-
-# その他
-## よくググるやつ
+### noclobber: リダイレクトによる上書きを禁止できる
++ `set -o noclobber`: 上書きを禁止
++ `set +o noclobber`: 上書きを許可
 
 ```sh
-date +%Y-%m-%d_%H:%M:%S
+echo "Hello" > hello.txt
+echo "World" > hello.txt
+cat hello.txt # World
+
+set -o noclobber # 上書きを禁止
+echo "Hello" > hello.txt # bash: hello.txt: cannot overwrite existing file
+echo "Hello" >> hello.txt # 追記はできる
+echo "Hoge" >|  hello.txt # >| で強制上書きできちゃう
+
+set +o noclobber # 上書きを許可
+echo "Hello" > hello.txt
+cat hello.txt # Hello
 ```
+
+続きはそのうち・・・
