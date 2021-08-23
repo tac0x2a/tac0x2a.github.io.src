@@ -3,6 +3,7 @@ title: "CDMP Associate 認定を取得した話"
 date: 2021-03-06T13:17:48+09:00
 draft: false
 summary: '日本語の情報が少ない気がするので備忘録としてメモを残すことにします。'
+categories: ['other', 'memo']
 ---
 
 ついさきほど、DAMA CDMP Certification - Associate 認定を取得しました。

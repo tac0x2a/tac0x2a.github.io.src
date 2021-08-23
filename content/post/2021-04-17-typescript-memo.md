@@ -3,6 +3,7 @@ title: "TypeScript のメモ"
 date: 2021-04-17T01:11:04+09:00
 draft: false
 summary: 'TypeScriptの色々を雑に思い出すためのメモ'
+categories: ['tech', 'lang', 'memo']
 ---
 
 # 変数とか

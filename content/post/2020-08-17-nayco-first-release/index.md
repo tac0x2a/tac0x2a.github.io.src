@@ -3,6 +3,7 @@ title: "小さなデータ基盤 Nayco をリリースしました"
 date: 2020-08-17T07:37:40+09:00
 draft: false
 summary: 'オンプレでも頑張って動く小さなデータ基盤 Nayco を作りました'
+categories: ['tech', 'dev']
 ---
 
 ## Nayco とは？

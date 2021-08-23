@@ -3,6 +3,7 @@ title: 'Shell Script のメモ'
 date: 2021-08-08T09:15:40+09:00
 draft: false
 summary: 'Shell Script のメモ'
+categories: ['tech', 'lang', 'memo']
 ---
 
 ## はじめに
