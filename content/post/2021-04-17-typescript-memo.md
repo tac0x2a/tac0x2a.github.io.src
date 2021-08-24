@@ -4,9 +4,10 @@ date: 2021-04-17T01:11:04+09:00
 draft: false
 summary: 'TypeScriptの色々を雑に思い出すためのメモ'
 categories: ['tech', 'lang', 'memo']
+keywords: ['hoge']
 ---
 
-# 変数とか
+## 変数とか
 ```ts
 const personName:string = 'world';
 console.log(`Hello ${1+1} ${personName}`);
@@ -177,13 +178,13 @@ for(const [key, value] of map) {
 ```
 
 
-# 基本的な構文
+## 基本的な構文
 + `if`, `switch`,`while` は省略。 イテレータブルなオブジェクトは `for-of` を使う。
 
 + `===`, `!==` は厳密な比較、 `==`, `!=` は文字列に変換しての比較
 
 
-# 型
+### 型
 TypeScriptは構造的部分型(structual subtyping)という型システムを採用している。
 継承関係ではなく、オブジェクトが持ってるプロパティが互換しているかどうかに関心がある。
 
@@ -215,7 +216,7 @@ const devenv: Partial<Language> & Editor = {
 
 `type`(Type Alias)とよく似た機能で`interface`というのがある。
 
-# 関数・メソッド
+## 関数・メソッド
 ```ts
 function join(s1: string, s2: string = "World") {
     return s1 + s2
@@ -250,7 +251,7 @@ console.log(ruby.ext) //=> "RB"
 ```
 
 
-# クラスとインタフェース
+## クラスとインタフェース
 ```ts
 class Language {
     private static  count: number = 0;
