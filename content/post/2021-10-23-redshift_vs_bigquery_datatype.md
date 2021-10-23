@@ -1,7 +1,7 @@
 ---
 title: 'Redshift と BigQuery を雑に比較(データ型)'
 date: 2021-10-23T18:34:14+09:00
-draft: true
+draft: false
 summary: 'Redshift と BigQuery のデータ型を雑に比較した'
 categories: ['redshift', 'bigquery', 'memo']
 ---
