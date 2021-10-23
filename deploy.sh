@@ -20,6 +20,7 @@ hugo -t even # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 (
+	git submodule update
 	cd public
 
 	# Add changes to git.
