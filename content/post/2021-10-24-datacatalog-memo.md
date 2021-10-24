@@ -1,7 +1,7 @@
 ---
 title: "GCP Data Catalog のメモ"
 date: 2021-10-24T11:32:27+09:00
-draft: true
+draft: false
 summary: 'Data Catalog をよく知らなかったのでメモ'
 categories: ['bigquery', 'memo']
 ---
