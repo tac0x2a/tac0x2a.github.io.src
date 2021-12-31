@@ -90,12 +90,12 @@ categories: ['look-back']
 
 
 ## 今年作ったもの
-- [Yasuri をコマンドラインから実行できるように]({{< ref "/post/2021-03-06-cdmp-associate/index.md" >}})した
+- [Yasuri をコマンドラインから実行できるように]({{< ref "/post/2021-03-27-improve-yasuri/index.md" >}})した
 
 新しいの何も作ってないな…
 
 ## 今年頑張ったこと
-- [CDMP Associate 認定を取得できた]({{< ref "/post/2021-03-27-improve-yasuri/index.md" >}})こと
+- [CDMP Associate 認定を取得できた]({{< ref "/post/2021-03-06-cdmp-associate/index.md" >}})こと
 - データエンジニアとして転職できたこと。楽しめる事業で一生懸命取り組めそうで良かった
 - お仕事関連のもろもろ。技術的にダメダメなので早く「何も分からん」になれるよう頑張りたい
 
